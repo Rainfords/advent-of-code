@@ -47,6 +47,3 @@ fun <R> List<String>.parts(map: (List<String>) -> R): List<R> = buildList {
 fun readAsText(name: String): String =
     File("src", "$name.txt").readText()
 
-
-
-
