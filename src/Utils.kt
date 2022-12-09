@@ -19,7 +19,7 @@ fun String.md5(): String = BigInteger(1, MessageDigest.getInstance("MD5").digest
  * Print the result of the block next line after the title
  */
 fun printResult(title: String, block: () -> Any) {
-    println("Result $title")
+    print("Result of sample $title")
     println(block())
 }
 
